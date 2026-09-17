@@ -1,0 +1,428 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Star Burger — hambúrgueres artesanais em Poços de Caldas." />
+  <title>Star Burger | Poços de Caldas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="noise"></div>
+
+  <header class="header" id="header">
+    <div class="container navbar">
+      <a class="logo" href="#inicio" aria-label="Star Burger - início">
+        <span class="logo-star">✦</span>
+        <span>STAR<br />BURGER</span>
+      </a>
+
+      <nav class="menu" id="menu">
+        <a href="#cardapio">Cardápio</a>
+        <a href="#experiencia">A experiência</a>
+        <a href="#encontre">Onde estamos</a>
+      </nav>
+
+      <a
+        class="order-button desktop-order"
+        href="https://wa.me/5535999999999"
+        target="_blank"
+        rel="noopener"
+      >
+        Pedir agora <span>↗</span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow">
+            <span></span>
+            Poços de Caldas, MG
+          </div>
+
+          <h1>
+            A noite pede<br />
+            <em>STAR.</em>
+          </h1>
+
+          <p class="hero-description">
+            Smash burgers intensos, ingredientes de verdade e aquela fome que
+            termina do jeito certo.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="button-primary"
+              href="https://wa.me/5535999999999?text=Olá!%20Quero%20fazer%20um%20pedido."
+              target="_blank"
+              rel="noopener"
+            >
+              Quero meu burger <span>↗</span>
+            </a>
+
+            <a class="hero-link" href="#cardapio">
+              Ver cardápio <span>↓</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <strong>18:00 — 23:30</strong>
+              <span>Terça a domingo</span>
+            </div>
+
+            <div>
+              <strong>Delivery & retirada</strong>
+              <span>Pedido rápido pelo WhatsApp</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-burger-wrap">
+          <div class="hero-sticker sticker-top">100%<br />ARTESANAL</div>
+          <div class="hero-sticker sticker-bottom">FEITO<br />NA HORA</div>
+
+          <div class="hero-image-frame">
+            <img
+              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=90"
+              alt="Hambúrguer artesanal com queijo e salada"
+            />
+          </div>
+
+          <div class="hero-price">
+            <small>A partir de</small>
+            <strong>R$ 28</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>SMASHED FRESH DAILY</span><i>✦</i>
+          <span>STAR BURGER</span><i>✦</i>
+          <span>SMASHED FRESH DAILY</span><i>✦</i>
+          <span>STAR BURGER</span><i>✦</i>
+          <span>SMASHED FRESH DAILY</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto section" id="manifesto">
+      <div class="container manifesto-grid">
+        <p class="vertical-label reveal">DESDE 2021 — POÇOS DE CALDAS</p>
+      
+          <div class="section-header-1 reveal">
+            <div>
+              <p class="eyebrow"><span></span> 100% artesanal</p>
+              <h2>Hambúrgueres<br />com sabores galaticos.</h2>
+            </div>
+
+            <p>
+              Smash burgers preparados na chapa quente, pão macio e ingredientes
+              selecionados para uma experiência completa.
+            </p>
+          </div>
+
+          <div class="manifesto-image">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=90" alt="Hambúrguer artesanal com queijo e salada" />
+          </div>
+        </div>
+        <div class="manifesto-text reveal">
+          <p class="eyebrow"><span></span> Nosso jeito de fazer</p>
+          <h2>
+            Menos conversa.<br />
+            <em>Mais sabor.</em>
+          </h2>
+        </div>
+
+        <div class="manifesto-copy reveal delay-1">
+          <p>
+            Aqui, o hambúrguer é prensado na chapa quente, o pão chega macio e
+            cada combinação tem motivo para existir.
+          </p>
+          <p>
+            Sem enrolação. Só comida boa, feita para dividir a mesa, a noite e
+            aquela vontade de pedir mais uma vez.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="cardapio">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="eyebrow"><span></span> Cardápio da casa</p>
+            <h2>Os favoritos<br />da <em>galáxia.</em></h2>
+          </div>
+
+          <p>
+            Combinações autorais preparadas com ingredientes selecionados e
+            muita personalidade.
+          </p>
+        </div>
+
+        <div class="menu-tabs reveal">
+          <button class="tab active" data-category="burgers">Burgers</button>
+          <button class="tab" data-category="combos">Combos</button>
+          <button class="tab" data-category="extras">Extras</button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+          <article class="food-card reveal" data-type="burgers">
+            <div class="food-image">
+              <span class="food-number">01</span>
+              <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=85" alt="Star Classic Burger" />
+            </div>
+            <div class="food-info">
+              <div class="food-title">
+                <h3>Star Classic</h3>
+                <strong>R$ 29</strong>
+              </div>
+              <p>Smash de 120g, cheddar cremoso, picles e molho Star.</p>
+              <button class="add-button" data-product="Star Classic — R$ 29">Adicionar <span>+</span></button>
+            </div>
+          </article>
+
+          <article class="food-card reveal delay-1" data-type="burgers">
+            <div class="food-image">
+              <span class="food-number">02</span>
+              <span class="best-seller">MAIS PEDIDO</span>
+              <img src="https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?auto=format&fit=crop&w=800&q=85" alt="Double Star Burger" />
+            </div>
+            <div class="food-info">
+              <div class="food-title">
+                <h3>Double Star</h3>
+                <strong>R$ 36</strong>
+              </div>
+              <p>Dois smash burgers, cheddar duplo, cebola caramelizada e molho da casa.</p>
+              <button class="add-button" data-product="Double Star — R$ 36">Adicionar <span>+</span></button>
+            </div>
+          </article>
+
+          <article class="food-card reveal delay-2" data-type="burgers">
+            <div class="food-image">
+              <span class="food-number">03</span>
+              <img src="https://images.unsplash.com/photo-1615297928064-24977384d0da?auto=format&fit=crop&w=800&q=85" alt="Bacon Moon Burger" />
+            </div>
+            <div class="food-info">
+              <div class="food-title">
+                <h3>Bacon Moon</h3>
+                <strong>R$ 39</strong>
+              </div>
+              <p>Smash de 150g, bacon crocante, queijo prato, barbecue e maionese defumada.</p>
+              <button class="add-button" data-product="Bacon Moon — R$ 39">Adicionar <span>+</span></button>
+            </div>
+          </article>
+
+          <article class="food-card hidden-card" data-type="combos">
+            <div class="food-image">
+              <span class="food-number">04</span>
+              <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=85" alt="Combo Star Classic" />
+            </div>
+            <div class="food-info">
+              <div class="food-title">
+                <h3>Combo Classic</h3>
+                <strong>R$ 43</strong>
+              </div>
+              <p>Star Classic, batata crocante e refrigerante em lata.</p>
+              <button class="add-button" data-product="Combo Classic — R$ 43">Adicionar <span>+</span></button>
+            </div>
+          </article>
+
+          <article class="food-card hidden-card" data-type="combos">
+            <div class="food-image">
+              <span class="food-number">05</span>
+              <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=85" alt="Combo Double Star" />
+            </div>
+            <div class="food-info">
+              <div class="food-title">
+                <h3>Combo Double</h3>
+                <strong>R$ 51</strong>
+              </div>
+              <p>Double Star, batata crocante e refrigerante em lata.</p>
+              <button class="add-button" data-product="Combo Double — R$ 51">Adicionar <span>+</span></button>
+            </div>
+          </article>
+
+          <article class="food-card hidden-card" data-type="extras">
+            <div class="food-image">
+              <span class="food-number">06</span>
+              <img src="https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=800&q=85" alt="Batata frita crocante" />
+            </div>
+            <div class="food-info">
+              <div class="food-title">
+                <h3>Star Fries</h3>
+                <strong>R$ 16</strong>
+              </div>
+              <p>Batatas crocantes, sal da casa e molho especial.</p>
+              <button class="add-button" data-product="Star Fries — R$ 16">Adicionar <span>+</span></button>
+            </div>
+          </article>
+        </div>
+
+        <div class="menu-bottom reveal">
+          <p>* Imagens ilustrativas. Consulte o cardápio completo pelo WhatsApp.</p>
+          <a
+            href="https://wa.me/5535999999999?text=Olá!%20Gostaria%20de%20ver%20o%20cardápio%20completo."
+            target="_blank"
+            rel="noopener"
+          >
+            Ver cardápio completo <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience section" id="experiencia">
+      <div class="container experience-grid">
+        <div class="experience-image reveal">
+          <img src="https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=1000&q=85" alt="Mesa com hambúrgueres e batatas" />
+          <div class="image-caption">feito com fome<br />e intenção.</div>
+        </div>
+
+        <div class="experience-content">
+          <p class="eyebrow reveal"><span></span> Além do burger</p>
+          <h2 class="reveal">Uma noite boa<br />começa <em>aqui.</em></h2>
+
+          <div class="experience-list">
+            <article class="reveal delay-1">
+              <span>01</span>
+              <div>
+                <h3>Chapa quente, pedido fresco</h3>
+                <p>Seu burger é preparado no momento em que o pedido chega.</p>
+              </div>
+            </article>
+
+            <article class="reveal delay-2">
+              <span>02</span>
+              <div>
+                <h3>Entrega com cuidado</h3>
+                <p>Embalagem pensada para o seu pedido chegar do jeito certo.</p>
+              </div>
+            </article>
+
+            <article class="reveal delay-3">
+              <span>03</span>
+              <div>
+                <h3>Espaço para ficar</h3>
+                <p>Chame os amigos, escolha sua mesa e aproveite sem pressa.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="gallery-row">
+        <div class="gallery-card large">
+          <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=1000&q=85" alt="Hambúrguer artesanal com batatas" />
+        </div>
+        <div class="gallery-card quote-card">
+          <p>“A melhor parte da noite começa com um bom burger.”</p>
+          <span>— STAR BURGER</span>
+        </div>
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=800&q=85" alt="Batata frita com molho" />
+        </div>
+      </div>
+    </section>
+
+    <section class="visit section" id="encontre">
+      <div class="container visit-grid">
+        <div class="visit-content reveal">
+          <p class="eyebrow"><span></span> Vem pra Star</p>
+          <h2>Seu lugar<br />na <em>noite.</em></h2>
+
+          <div class="visit-details">
+            <div>
+              <small>ENDEREÇO</small>
+              <p>Av. Magda Pinto Amarante, 223<br />Amarantes — Poços de Caldas, MG</p>
+            </div>
+
+            <div>
+              <small>HORÁRIOS</small>
+              <p>Terça a quinta: 18h às 23h30<br />Sexta a domingo: 18h à 00h</p>
+            </div>
+          </div>
+
+          <a
+            class="button-primary"
+            href="https://www.google.com/maps/search/?api=1&query=Av.+Magda+Pinto+Amarante+223+Pocos+de+Caldas"
+            target="_blank"
+            rel="noopener"
+          >
+            Traçar rota <span>↗</span>
+          </a>
+        </div>
+
+        <div class="visit-map reveal delay-1">
+          <iframe
+            title="Localização da Star Burger em Poços de Caldas"
+            src="https://www.google.com/maps?q=Av.%20Magda%20Pinto%20Amarante%20223%20Po%C3%A7os%20de%20Caldas&z=15&output=embed"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a
+    class="whatsapp-float"
+    href="https://wa.me/5535999999999?text=Olá!%20Quero%20fazer%20um%20pedido."
+    target="_blank"
+    rel="noopener"
+    aria-label="Pedir pelo WhatsApp"
+  >
+    <span>☏</span>
+    <small>FAZER PEDIDO</small>
+  </a>
+
+  <footer>
+    <div class="container footer-top">
+      <a class="logo footer-logo" href="#inicio">
+        <span class="logo-star">✦</span>
+        <span>STAR<br />BURGER</span>
+      </a>
+
+      <p>Hambúrguer artesanal feito em Poços de Caldas.</p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">Instagram ↗</a>
+        <a href="#" aria-label="iFood">iFood ↗</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© 2026 STAR BURGER</span>
+      <span>Site demonstrativo para portfólio</span>
+    </div>
+  </footer>
+
+  <div class="cart-toast" id="cartToast">
+    <span>✦</span>
+    <p><strong id="toastProduct"></strong> adicionado ao pedido.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
